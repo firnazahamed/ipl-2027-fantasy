@@ -1,0 +1,44 @@
+# 2027 = 2026 rules unchanged (decided Nov 24, 2026).
+# If the league votes a change, copy the section from rules_2026.toml and edit it here.
+season = 2027
+
+[batting]
+run = 1
+pace_per_run_over_balls = 1
+four = 1
+six = 2
+duck = -5
+duck_exempt = ["not out", "DNB", "absent hurt"]
+milestone_step = 25
+milestones = [0, 10, 20, 30, 50]
+
+[bowling]
+wicket = 25
+dot = 1.5
+maiden = 30
+tight_econ = 9.0
+tight_mult = 3.0
+tight_runs_per_ball = 1.5
+loose_econ = 12.0
+loose_runs_per_ball = 2.0
+milestones = [0, 0, 10, 20, 30, 50]
+
+[fielding]
+catch = 10
+stumping = 10
+run_out = 10
+
+[bonus]
+player_of_match = 25
+winning_team = 5
+
+[lineup]
+xi_size = 11
+bench_size = 4
+captain_mult = 1.5
+vice_captain_mult = 1.2
+sub_mult = 0.5
+max_overseas = 4
+min_batters = 6
+min_bowlers = 5
+min_wicketkeepers = 1

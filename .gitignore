@@ -1,0 +1,25 @@
+# Secrets: never commit. Real values live in GCP Secret Manager / Vercel env.
+.env
+.env.*
+!.env.example
+credentials/
+*.json.key
+*service-account*.json
+client_secret*.json
+.streamlit/secrets.toml
+token*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Local data pulls
+data/raw/
